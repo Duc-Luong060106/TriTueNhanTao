@@ -40,6 +40,26 @@ Cung cấp kiến thức cơ bản về các phương pháp giải quyết vấn
 
 ---
 
+## 🗔 Giao diện
+**Xây dựng cửa sổ giao diện như hình**
+
+<div align="center">
+  <img src="assets/screenshot_gui_app.png" alt="Cửa sổ giao diện khi chạy" width="600"/>
+</div>
+
+ * **Bên trái**: Cài đặt - chọn thuật toán, kích thước ma trận đầu vào, tạo ngẫu nhiên và chạy thuật toán.
+ * **Phía trên chính giữa**: Sơ đồ phòng chia thành các ô, robot chuyển động từng bước và hút bụi.
+ * **Phía dưới chính giữa**: In ra thời gian chạy thuật toán, số bước di chuyển và chuỗi hành động.
+ * **Bên trái**: Log Panel - Ghi lại thông tin từng bước di chuyển.
+ 
+**Khi chạy giao diện**
+
+<div align="center">
+  <img src="assets/demo_running_vacuum_app.gif" alt="Cửa sổ giao diện khi chạy" width="600"/>
+</div>
+ 
+---
+
 ## 📅 Bảng theo dõi tiến độ công việc hàng tuần
 
 **Kí hiệu viết tắt:**
@@ -55,6 +75,7 @@ Cung cấp kiến thức cơ bản về các phương pháp giải quyết vấn
 | **4** | **BTVN**: Model-based reflex agent 02 & BFS | Triển khai Model-based reflex agent cho bài toán Máy hút bụi (Vacuum cleaner) và thuật toán BFS cho bài toán 8-Puzzles | [Session_04_homework_Model-based](https://github.com/Duc-Luong060106/TriTueNhanTao/blob/main/model_based_reflex_agent/hut_bui_model_based.ipynb) [Session_04_homework_bfs](https://github.com/Duc-Luong060106/TriTueNhanTao/tree/main/bfs)| ✅ Hoàn thành |
 | **5** | **BTVN**: BFS & DFS | Cài đặt thuật toán BFS (2 version) và DFS (2 version) cho bài toán máy hút bụi & **giao diện** | [Session_05_homework](https://github.com/Duc-Luong060106/TriTueNhanTao/tree/main/b%C3%A0i_t%E1%BA%ADp_v%E1%BB%81_nh%C3%A0_bu%E1%BB%95i_5) | ✅ Hoàn thành |
 | **6** | **BTVN**: IDS & UCS | Bổ sung thuật toán IDS (2 version) và UCS) cho bài toán máy hút bụi & **giao diện** đã xây dựng ở tuần 5 | [Session_06_homework](https://github.com/Duc-Luong060106/TriTueNhanTao/tree/main/btvn_bu%E1%BB%95i_6) | ✅ Hoàn thành |
+| **7** | **BTVN**: Greedy & A* | Bổ sung thuật toán Greedy Search và A*) cho bài toán máy hút bụi & **giao diện** đã xây dựng ở các tuần trước đó | [Session_07_homework](https://github.com/Duc-Luong060106/TriTueNhanTao/blob/main/btvn_bu%E1%BB%95i_7/vacumm_cleaner_gui_greedy_and_astar.ipynb) | ✅ Hoàn thành |
 
 ---
 
