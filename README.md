@@ -4,7 +4,15 @@
 Kho lưu trữ mã nguồn, tài liệu và bài tại lớp và tập về nhà hàng tuần cho môn học **Trí tuệ nhân tạo (ARIN330585)**
 
 ## Mục tiêu môn học  
-Cung cấp kiến thức cơ bản về các phương pháp giải quyết vấn đề bằng tìm kiếm trong không gian trạng thái.
+Cung cấp kiến thức cơ bản về các phương pháp giải quyết vấn đề bằng tìm kiếm trong không gian trạng thái.  
+
+## Liên quan  
+Link project cá nhân: 
+* Bài toán máy hút bụi (vacuum cleaner)
+* Mỗi thuật toán tìm kiếm được tổ chức thành module
+* gui.ipynb import các thuật toán và xây dựng giao diện
+
+[**Click here**](https://github.com/Duc-Luong060106/vacuum_cleaner_personal_project)
 
 ---
 
@@ -75,7 +83,7 @@ Cung cấp kiến thức cơ bản về các phương pháp giải quyết vấn
 | **4** | **BTVN**: Model-based reflex agent 02 & BFS | Triển khai Model-based reflex agent cho bài toán Máy hút bụi (Vacuum cleaner) và thuật toán BFS cho bài toán 8-Puzzles | [Session_04_homework_Model-based](https://github.com/Duc-Luong060106/TriTueNhanTao/blob/main/model_based_reflex_agent/hut_bui_model_based.ipynb) [Session_04_homework_bfs](https://github.com/Duc-Luong060106/TriTueNhanTao/tree/main/bfs)| ✅ Hoàn thành |
 | **5** | **BTVN**: BFS & DFS | Cài đặt thuật toán BFS (2 version) và DFS (2 version) cho bài toán máy hút bụi & **giao diện** | [Session_05_homework](https://github.com/Duc-Luong060106/TriTueNhanTao/tree/main/b%C3%A0i_t%E1%BA%ADp_v%E1%BB%81_nh%C3%A0_bu%E1%BB%95i_5) | ✅ Hoàn thành |
 | **6** | **BTVN**: IDS & UCS | Bổ sung thuật toán IDS (2 version) và UCS) cho bài toán máy hút bụi & **giao diện** đã xây dựng ở tuần 5 | [Session_06_homework](https://github.com/Duc-Luong060106/TriTueNhanTao/tree/main/btvn_bu%E1%BB%95i_6) | ✅ Hoàn thành |
-| **7** | **BTVN**: Greedy & A* | Bổ sung thuật toán Greedy Search và A*) cho bài toán máy hút bụi & **giao diện** đã xây dựng ở các tuần trước đó | [Session_07_homework](https://github.com/Duc-Luong060106/TriTueNhanTao/blob/main/btvn_bu%E1%BB%95i_7/vacumm_cleaner_gui_greedy_and_astar.ipynb) | ✅ Hoàn thành |
+| **7** | **BTVN**: Greedy & A* | Bổ sung thuật toán Greedy Search và A*) cho bài toán máy hút bụi & **giao diện** đã xây dựng ở các tuần trước đó | [Session_07_homework](https://github.com/Duc-Luong060106/TriTueNhanTao/blob/main/btvn_bu%E1%BB%95i_7/vacuum_cleaner_gui_greedy_and_astar.ipynb) | ✅ Hoàn thành |
 
 ---
 
