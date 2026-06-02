@@ -43,7 +43,15 @@ Link project cá nhân:
 2. **Tìm kiếm có thông tin (Informed Search):**
    * **Greedy Search:** Lựa chọn bước đi tối ưu cục bộ dựa trên hàm Heuristic $h(n)$.
    * **A\* Search:** Tối ưu hóa toàn cục, lựa chọn dựa trên $f(n)$ kết hợp chi phí thực $g(n)$ và ước lượng $h(n)$.
-
+   * **IDA\*:** Là sự kết hợp giữa IDS và A*, tìm kiếm bằng cách duyệt theo từng mức cost và mỗi mức chạy thuật toán A*.
+3. **Tìm kiếm cục bộ (Local Search):**
+   Tại node đang xét, tìm trong số nút con sinh ra node tốt hơn để di chuyển tiếp.  
+   * **Hill Climbing:**
+     * **Simple hill climbing:** Sinh các node con lần lượt, nếu gặp node tốt hơn thì dùng node đó xét tiếp.
+     * **Steepest Ascent hill climbing:** Chọn node tối ưu nhất trong node con sinh ra để xét tiếp.
+     * **Stochastic hill climbing:** Chọn ngẫu nhiên trong các node con hơn cha để xét tiếp.
+     * **Random start hill climbing:** Có số lần chạy lại tối đa, mỗi lần chạy thuật toán Leo đồi ngẫu nhiên nếu không tìm được kết quả sẽ khởi tạo lại.    
+   
  **Đang tiếp tục được cập nhật ...**
 
 ---
@@ -82,8 +90,10 @@ Link project cá nhân:
 | **4** | **BTTL**: Model-based reflex agent 01 | Triển khai Model-based reflex agent cho bài toán 8-Puzzles | [Session_04_classwork](https://github.com/Duc-Luong060106/TriTueNhanTao/blob/main/model_based_reflex_agent/8_puzzles_model_based.ipynb) | ✅ Hoàn thành |
 | **4** | **BTVN**: Model-based reflex agent 02 & BFS | Triển khai Model-based reflex agent cho bài toán Máy hút bụi (Vacuum cleaner) và thuật toán BFS cho bài toán 8-Puzzles | [Session_04_homework_Model-based](https://github.com/Duc-Luong060106/TriTueNhanTao/blob/main/model_based_reflex_agent/hut_bui_model_based.ipynb) [Session_04_homework_bfs](https://github.com/Duc-Luong060106/TriTueNhanTao/tree/main/bfs)| ✅ Hoàn thành |
 | **5** | **BTVN**: BFS & DFS | Cài đặt thuật toán BFS (2 version) và DFS (2 version) cho bài toán máy hút bụi & **giao diện** | [Session_05_homework](https://github.com/Duc-Luong060106/TriTueNhanTao/tree/main/b%C3%A0i_t%E1%BA%ADp_v%E1%BB%81_nh%C3%A0_bu%E1%BB%95i_5) | ✅ Hoàn thành |
-| **6** | **BTVN**: IDS & UCS | Bổ sung thuật toán IDS (2 version) và UCS) cho bài toán máy hút bụi & **giao diện** đã xây dựng ở tuần 5 | [Session_06_homework](https://github.com/Duc-Luong060106/TriTueNhanTao/tree/main/btvn_bu%E1%BB%95i_6) | ✅ Hoàn thành |
-| **7** | **BTVN**: Greedy & A* | Bổ sung thuật toán Greedy Search và A*) cho bài toán máy hút bụi & **giao diện** đã xây dựng ở các tuần trước đó | [Session_07_homework](https://github.com/Duc-Luong060106/TriTueNhanTao/blob/main/btvn_bu%E1%BB%95i_7/vacuum_cleaner_gui_greedy_and_astar.ipynb) | ✅ Hoàn thành |
+| **6** | **BTVN**: IDS & UCS | Bổ sung thuật toán IDS (2 version) và UCS cho bài toán máy hút bụi & **giao diện** đã xây dựng ở tuần 5 | [Session_06_homework](https://github.com/Duc-Luong060106/TriTueNhanTao/tree/main/btvn_bu%E1%BB%95i_6) | ✅ Hoàn thành |
+| **7** | **BTVN**: Greedy & A* | Bổ sung thuật toán Greedy Search và A* cho bài toán máy hút bụi & **giao diện** đã xây dựng ở các tuần trước đó | [Session_07_homework](https://github.com/Duc-Luong060106/TriTueNhanTao/blob/main/btvn_bu%E1%BB%95i_7/vacuum_cleaner_gui_greedy_and_astar.ipynb) | ✅ Hoàn thành |
+| **8** | **BTVN**: IDA* & Hill Climbing (3 version) | Bổ sung thuật toán IDA* và thuật toán Leo đồi: đơn giản, dốc nhất và ngẫu nhiên cho bài toán máy hút bụi & **giao diện** đã xây dựng ở các tuần trước đó | [Session_08_homework](https://github.com/Duc-Luong060106/TriTueNhanTao/tree/main/homework_session_08) | ✅ Hoàn thành |
+| **9** | **BTVN**: Hill Climbing (last version - Khởi tạo ngẫu nhiên) | Bổ sung Thuật toán Leo đồi khởi tạo ngẫu nhiên cho bài toán máy hút bụi & **giao diện** đã xây dựng ở các tuần trước đó | [Session_09_homework](https://github.com/Duc-Luong060106/TriTueNhanTao/tree/main/homework_session_09) | ✅ Hoàn thành |
 
 ---
 
